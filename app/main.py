@@ -17,6 +17,11 @@ from pipecat.transports.websocket.fastapi import (
     FastAPIWebsocketTransport,
     FastAPIWebsocketParams,
 )
+from pipecat.transports.base_transport import BaseTransport
+# from pipecat.transports.websocket.fastapi import (
+    # FastAPIWebsocketParams,
+    # FastAPIWebsocketTransport,
+# )
 from pipecat.services.deepgram.stt import DeepgramSTTService
 from pipecat.services.openai.llm import OpenAILLMService
 from pipecat.services.elevenlabs.tts import ElevenLabsTTSService
