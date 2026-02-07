@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+websockets
+pipecat-ai
+deepgram-sdk
+openai
+elevenlabs
+sqlalchemy
+apscheduler
